@@ -1,2 +1,5 @@
 import React from 'react';
-import reactDOM from'reactdom';
+import ReactDOM from'react-dom';
+
+ReactDOM.render(<div>react working</div>, document.getElementById('app'));
+
